@@ -1,0 +1,32 @@
+body {
+  min-height: 2000px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #2e0a4a;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+  color: #dda0dd; /* Mengubah warna teks saat dihover */
+  /* Mengubah warna latar belakang saat dihover */
+}
+
+.container {
+  position: relative;
+  width: calc(100%-100px);
+  min-height: calc(100vh-280px);
+  min-height: 300px;
+  border-radius: 20px;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.05);
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+}
+
+.btn {
+  background-color: wheat;
+}
+
+.btn:hover {
+  color: aliceblue;
+}
